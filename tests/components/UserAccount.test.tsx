@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import UserAccount from "../../src/components/UserAccount";
 import { User } from "../../src/entities";
 
-describe("UserAccount", () => {
+describe("UserAccount Component", () => {
   it("should render user name", () => {
     const user: User = { id: 1, name: "Mosh" };
 
